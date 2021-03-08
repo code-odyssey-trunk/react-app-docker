@@ -9,7 +9,7 @@ export const TopBar = ({ name, logout }) => {
     <AppBar position="static">
       <Toolbar>
         <Typography variant="h6">Welcome {name}</Typography>
-        <Typography variant="h6" style={{ flexGrow: 1 }}>
+        <Typography variant="h6" style={{ flexGrow: 1, textAlign: "center" }}>
           Dashboard
         </Typography>
         <Button onClick={() => logout()} color="inherit">
