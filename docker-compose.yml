@@ -1,0 +1,6 @@
+version: "3.8"
+services:
+  doc_container_1:
+    build: .
+    ports:
+      - "3000:3000"
